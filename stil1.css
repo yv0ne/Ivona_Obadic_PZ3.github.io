@@ -1,0 +1,71 @@
+header{
+  display: block;
+}
+
+.navigacija li {
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.navigacija ul{
+  list-style: none;
+}
+
+.navigacija a {
+  display: block;
+  padding: 8px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navigacija{
+  display: block;
+  height: 40px;
+  text-align: center;
+  background: #3f0303;
+  color: white;
+  font-size: 20px;
+}   
+
+body{
+  background-image: url(slike/pozadina2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.naslov{
+  color: whitesmoke;
+  padding-left: 30px;
+}
+
+.naslov h1{
+  font-family: "IvonaObadic" , sans-serif;
+  font-size: 60px;
+}
+
+.parag p{
+  display: block;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.parag{
+  position: relative;
+  top: 100px;
+  backdrop-filter: blur(90px);
+  background-color: #3f0303, 90%;
+  padding: 100px;
+}
+
+@font-face {
+  font-family: "IvonaObadic";
+  src: url(IvonaObadic.ttf);
+}

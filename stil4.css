@@ -1,0 +1,57 @@
+body{
+  background-color: #7a1212;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigacija li {
+  float: right;
+  text-decoration: none;
+  list-style: none;
+  padding-right: 20px;
+}
+
+.navigacija ul{
+  list-style: none;
+}
+
+.navigacija a {
+  display: block;
+  padding: 8px;
+  padding-bottom: 5px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navigacija{
+  display: block;
+  height: 40px;
+  text-align: center;
+  background: #3f0303;
+  color: white;
+  font-size: 20px;
+}   
+
+.naslov{
+  color: whitesmoke;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.video iframe{
+  width: 1000px;
+  height: 568px;
+}
